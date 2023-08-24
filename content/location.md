@@ -15,9 +15,5 @@ South Kensington Campus
 London SW7 2AZ
 United Kingdom
 
-<iframe src="https://storage.googleapis.com/maps-solutions-pacga3629p/locator-plus/1ovu/locator-plus.html"
-  width="100%" height="100%"
-  style="border:0;"
-  loading="lazy">
-</iframe>
+<iframe src="https://snazzymaps.com/embed/518679" width="100%" height="600px" style="border:none;"></iframe>
 
