@@ -2,6 +2,7 @@
 title: "Shining Light on Missing Red Giants: Red Giant Photoevaporation in the Galactic Centre" 
 date: 1/5/2023
 url: /msci/
+tags: ["red giant","black hole","photoevaporation","galactic centre","astrophysics","stellar evolution"]
 author: "Jacopo Uggeri"
 supervisor: "James Owen"
 description: "The project's aim was to investigate whether the lack of red giant stars at the center of the Galaxy could be explained by evaporation caused by radiation coming from the accretion disk of the central supermassive black hole." 
