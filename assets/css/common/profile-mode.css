@@ -39,5 +39,5 @@
 }
 
 .button:hover {
-    background: var(--midpurple);
+    background: var(--hover2);
 }

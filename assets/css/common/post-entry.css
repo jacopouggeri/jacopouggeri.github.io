@@ -44,7 +44,7 @@
 }
 
 .post-entry:hover {
-     border: 2px solid var(--midpurple);
+     border: 2px solid var(--hover2);
 }
 
 .tag-entry .entry-cover {
