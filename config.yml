@@ -1,5 +1,5 @@
-baseURL: "https://pascalmichaillat.org/" 
-title: Pascal Michaillat
+baseURL: "https://jacopouggeri.github.io" 
+title: Jacopo Uggeri
 paginate: 20
 theme: PaperMod
 
@@ -7,7 +7,7 @@ enableInlineShortcodes: true
 enableRobotsTXT: true
 
 social:
-    twitter: pmichaillat
+    twitter:
 
 taxonomies:
     tag: tags
