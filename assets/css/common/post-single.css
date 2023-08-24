@@ -341,11 +341,11 @@
 }
 
 .post-tags a:hover {
-    background: var(--lightpurple);
+    background: var(--hover3);
 }
 
 .paginav a:hover {
-    background: var(--lightpurple);
+    background: var(--hover3);
 }
 
 .share-buttons {
