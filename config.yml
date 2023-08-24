@@ -82,7 +82,7 @@ params:
               #url: https://pmichaillat.substack.com
     socialIcons:
         - name: CV
-          url: /cv.pdf
+          url: /CurriculumVitae.pdf
         - name: Email
           url: mailto:jacopo.uggeri@gmail.com
         - name: Location
