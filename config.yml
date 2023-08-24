@@ -89,14 +89,16 @@ params:
           url: /location/
         - name: OrcID
           url: https://orcid.org/0009-0001-1469-5566
-        - name: ResearchGate
-          url: https://www.researchgate.net/profile/Jacopo_Uggeri
         - name: YouTube
           url: https://www.youtube.com/@jacopouggeri
         - name: GitHub
           url: https://github.com/jacopouggeri?tab=repositories
         - name: LinkedIn
           url: https://linkedin.com/in/jacopo-uggeri-191605198
+        - name: Wolfram Community
+          url: https://community.wolfram.com/web/jacopouggeri19
+        - name: ResearchGate
+          url: https://www.researchgate.net/profile/Jacopo_Uggeri
 
     assets:
         disableHLJS: true
