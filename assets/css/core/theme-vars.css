@@ -11,6 +11,7 @@
     --primary: rgb(30, 30, 30);
     --secondary: rgb(108, 108, 108);
     --tertiary: rgb(214, 214, 214);
+    --hover: var(--aqua)
     --gray: rgb(165, 165, 165);
     --content: rgb(30, 30, 30);
     --hljs-bg: rgb(28, 29, 33);
@@ -19,6 +20,8 @@
     --darkpurple: #8e7bd0;
     --midpurple:#c0b5e5;
     --lightpurple: #e5e1f4;
+    --aqua: rgb(115, 204, 183);
+    --darkblue: rgb(20, 27, 49);
     --semibold: 500;
     --homesize: 16px;
     --textsize: 18px;

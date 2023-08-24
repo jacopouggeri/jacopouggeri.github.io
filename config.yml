@@ -14,27 +14,15 @@ taxonomies:
 
 menu:
     main:
-        #- name: Papers
-          #url: /papers/
-          #weight: 1
-        #- name: Courses
-          #url: /courses/
-          #weight: 2
-        #- name: Design
-          #url: /design/
-          #weight: 3
         - name: Posts
           url: /posts/
           weight: 1
         - name: Projects
           url: /projects/
-          weight: 1
+          weight: 2
         - name: Tags
           url: /tags/
-          weight: 2     
-        #- name: Newsletter
-          #url: https://pmichaillat.substack.com
-          #weight: 4
+          weight: 3 
 
 params:
     description: "Enthusiastic Theoretical Physics student. My current research interest is in gravity beyond General Relativity  and black hole physics. Curious about learning languages, game design and the graphical and visual aspect of science communication."
@@ -72,14 +60,6 @@ params:
               url: /posts/
             - name: Projects
               url: /projects/
-            #- name: Papers
-              #url: /papers/
-            #- name: Courses
-              #url: /courses/
-            #- name: Design
-              #url: /design/
-            #- name: Newsletter
-              #url: https://pmichaillat.substack.com
     socialIcons:
         - name: CV
           url: /CurriculumVitae.pdf
