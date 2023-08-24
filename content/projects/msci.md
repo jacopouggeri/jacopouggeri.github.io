@@ -39,4 +39,4 @@ The observed distribution of red giant stars in the galactic centre deviates fro
 
 ##### Related material
 
-+ [YouTube Presentation](/1p.pdf)
++ [YouTube Presentation](https://www.youtube.com/watch?v=DIE3EIqZb9M&t=18s)
