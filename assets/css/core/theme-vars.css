@@ -20,6 +20,7 @@
     --midpurple:#c0b5e5;
     --lightpurple: #e5e1f4;
     --aqua: rgb(115, 204, 183);
+    --darkaqua: #05696B;
     --darkblue: rgb(20, 27, 49);
     --hover: var(--aqua);
     --hover2: var(--aqua);
@@ -46,6 +47,9 @@
     --hljs-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
+    --hover: var(--aqua);
+    --hover2: var(--darkaqua);
+    --hover3: var(--darkaqua);
 }
 
 .list {
