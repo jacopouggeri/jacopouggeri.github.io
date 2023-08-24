@@ -6,14 +6,14 @@
     --header-height: 44px;
     --footer-height: 70px;
     --radius: 8px;
-    --theme: rgb(255, 255, 255);
-    --entry: rgb(255, 255, 255);
-    --primary: rgb(30, 30, 30);
+    --theme: var(--mywhite);
+    --entry: var(--mywhite);
+    --primary: var(--myblue);
     --secondary: rgb(108, 108, 108);
     --tertiary: rgb(214, 214, 214);
     --gray: rgb(165, 165, 165);
-    --content: rgb(30, 30, 30);
-    --hljs-bg: rgb(28, 29, 33);
+    --content: var(--myblue);
+    --hljs-bg: var(--myblue);
     --code-bg: rgb(245, 245, 245);
     --border: rgb(238, 238, 238);
     --darkpurple: #8e7bd0;
@@ -21,10 +21,13 @@
     --lightpurple: #e5e1f4;
     --aqua: rgb(115, 204, 183);
     --darkaqua: #05696B;
+    --lightaqua: #AFDDDE;
     --darkblue: rgb(20, 27, 49);
+    --myblue: #121b33;
+    --mywhite: #f3f5ef;
     --hover: var(--darkaqua);
     --hover2: var(--aqua);
-    --hover3: var(--aqua);
+    --hover3: var(--lightaqua);
     --semibold: 500;
     --homesize: 16px;
     --textsize: 18px;
@@ -47,8 +50,8 @@
     --hljs-bg: rgb(46, 46, 51);
     --code-bg: rgb(55, 56, 62);
     --border: rgb(51, 51, 51);
-    --hover: var(--aqua);
-    --hover2: var(--darkaqua);
+    --hover: var(--lightaqua);
+    --hover2: var(--aqua);
     --hover3: var(--darkaqua);
 }
 
