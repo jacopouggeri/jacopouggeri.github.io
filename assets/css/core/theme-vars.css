@@ -9,12 +9,12 @@
     --theme: var(--mywhite);
     --entry: var(--mywhite);
     --primary: var(--myblue);
-    --secondary: rgb(108, 108, 108);
-    --tertiary: rgb(214, 214, 214);
+    --secondary: rgb(89, 95, 112) ;
+    --tertiary: rgb(174, 176, 172);
     --gray: rgb(165, 165, 165);
     --content: var(--myblue);
     --hljs-bg: var(--myblue);
-    --code-bg: rgb(218,220,215);
+    --code-bg: rgb(218, 220, 215);
     --border: rgb(238, 238, 238);
     --darkpurple: #8e7bd0;
     --midpurple:#c0b5e5;
@@ -23,8 +23,8 @@
     --darkaqua: #05696B;
     --lightaqua: #AFDDDE;
     --darkblue: rgb(20, 27, 49);
-    --myblue: #121b33;
-    --mywhite: #f3f5ef;
+    --myblue: rgb(18, 27, 51);
+    --mywhite: rgb(243, 245, 239);
     --hover: var(--darkaqua);
     --hover2: var(--aqua);
     --hover3: var(--lightaqua);
