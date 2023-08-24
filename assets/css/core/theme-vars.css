@@ -22,7 +22,7 @@
     --aqua: rgb(115, 204, 183);
     --darkaqua: #05696B;
     --darkblue: rgb(20, 27, 49);
-    --hover: var(--aqua);
+    --hover: var(--darkaqua);
     --hover2: var(--aqua);
     --hover3: var(--aqua);
     --semibold: 500;

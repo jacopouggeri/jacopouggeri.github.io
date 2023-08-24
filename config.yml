@@ -29,7 +29,7 @@ params:
     author: Jacopo Uggeri
     googleAnalyticsID:
     DateFormat: "January 2006"
-    defaultTheme: dark
+    defaultTheme: light
     hideFooter: true
     disableThemeToggle: true
     ShowShareButtons: false
