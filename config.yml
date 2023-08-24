@@ -37,7 +37,7 @@ menu:
           #weight: 4
 
 params:
-    description: "Enthusiastic Theoretical Physics student. My current research interest is in quantum gravity and black hole physics. Curious about learning languages, game design and the graphical and visual aspect of science communication."
+    description: "Enthusiastic Theoretical Physics student. My current research interest is in gravity beyond General Relativity  and black hole physics. Curious about learning languages, game design and the graphical and visual aspect of science communication."
     author: Jacopo Uggeri
     googleAnalyticsID:
     DateFormat: "January 2006"
@@ -62,7 +62,7 @@ params:
     profileMode:
           enabled: true
           title: Jacopo Uggeri
-          subtitle: "Enthusiastic Theoretical Physics student. My current research interest is in quantum gravity and black hole physics. Curious about learning languages, game design and the graphical and visual aspect of science communication."
+          subtitle: "Enthusiastic Theoretical Physics student. My current research interest is in gravity beyond General Relativity and black hole physics. Curious about learning languages, game design and the graphical and visual aspect of science communication."
           imageUrl: "/profile.png"
           imageWidth: 160
           imageHeight: 160
