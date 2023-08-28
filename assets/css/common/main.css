@@ -42,6 +42,9 @@
 
 .social-icons a:hover {
     color: var(--hover);
+}
+
+.social-icons a:hover svg {
     transform: scale(1.3);
 }
 
