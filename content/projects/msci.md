@@ -9,7 +9,7 @@ description: "The project's aim was to investigate whether the lack of red giant
 summary: "The project's aim was to investigate whether the lack of red giant stars at the center of the Galaxy could be explained by evaporation caused by radiation coming from the accretion disk of the central supermassive black hole. Our results provided promising evidence that photoevaporation can indeed significantly alter a red giant's evolutionary course." 
 cover:
     image: "/msci_img.png"
-    alt: "Rationing and frictional unemployment in the United States, 1964–2009"
+    alt: "Shining Light on Missing Red Giants: Red Giant Photoevaporation in the Galactic Centre"
     relative: false
 
 ---

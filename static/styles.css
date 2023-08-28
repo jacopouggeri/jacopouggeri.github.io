@@ -1,0 +1,33 @@
+.skill-section {
+    display: flex;
+    justify-content: space-between;
+  }
+  
+  .skill-column {
+    flex: 1;
+    padding: 10px;
+  }
+  
+  .skill {
+    display: flex;
+    align-items: center;
+    margin-bottom: 10px;
+  }
+  
+  .skill i {
+    margin-right: 10px;
+    font-size: 24px;
+  }
+  
+  .skill span {
+    flex: 1;
+    font-weight: bold;
+  }
+  
+  .skill-bar {
+    width: 0;
+    height: 20px;
+    background-color: #4caf50;
+    border-radius: 5px;
+  }
+  

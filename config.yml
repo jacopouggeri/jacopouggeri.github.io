@@ -62,7 +62,7 @@ params:
               url: /projects/
     socialIcons:
         - name: CV
-          url: /CurriculumVitae.pdf
+          url: /cv/
         - name: Email
           url: mailto:jacopo.uggeri@gmail.com
         - name: Location
