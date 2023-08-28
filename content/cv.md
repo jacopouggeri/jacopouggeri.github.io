@@ -131,19 +131,21 @@ Year 1 Summer Project at Imperial College London
 
 ## Skills
 ---
-<ul>
-  <li><span class="python"></span><em>Python</em></li>
-  <li><span class="java"></span><em>Java</em></li>
-  <li><span class="cplusplus"></span><em>C++</em></li>
-  <li><span class="haskell"></span><em>Haskell</em></li>
-  <li><span class="mathematica"></span><em>Mathematica</em></li>
-  <li><span class="javascript"></span><em>JavaScript</em></li>
-  <li><span class="ruby"></span><em>Ruby</em></li>
-  <li><span class="html5"></span><em>HTML</em></li>
-  <li><span class="latex"></span><em>LaTeX</em></li>
-  <li><span class="git"></span><em>Git</em></li>
-  <li><span class="shell"></span><em>Shell</em></li>
-</ul>
+<div class="skills">
+    <ul>
+        <li><span class="python"></span><em>Python</em></li>
+        <li><span class="java"></span><em>Java</em></li>
+        <li><span class="cplusplus"></span><em>C++</em></li>
+        <li><span class="haskell"></span><em>Haskell</em></li>
+        <li><span class="mathematica"></span><em>Mathematica</em></li>
+        <li><span class="javascript"></span><em>JavaScript</em></li>
+        <li><span class="ruby"></span><em>Ruby</em></li>
+        <li><span class="html5"></span><em>HTML</em></li>
+        <li><span class="latex"></span><em>LaTeX</em></li>
+        <li><span class="git"></span><em>Git</em></li>
+        <li><span class="shell"></span><em>Shell</em></li>
+    </ul>
+</div>
 
 
 
