@@ -42,24 +42,9 @@
 
 .social-icons a:hover {
     color: var(--hover);
+    transform: scale(1.3);
 }
 
-.social-icons a {
-    -moz-transition: background-color 0.25s ease-in-out;
-    -webkit-transition: background-color 0.25s ease-in-out;
-    -ms-transition: background-color 0.25s ease-in-out;
-    transition: background-color 0.25s ease-in-out;
-    display: inline-block;
-    width: 2.75rem;
-    height: 2.75rem;
-    line-height: 2.8rem;
-    text-align: center;
-    border: 0;
-    box-shadow: none;
-    padding:0;
-    border-radius: 100%;
-    color: var(--mywhite);
-}
 
 code {
     direction: ltr;
