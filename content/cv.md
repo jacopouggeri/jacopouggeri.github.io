@@ -131,70 +131,20 @@ Year 1 Summer Project at Imperial College London
 
 ## Skills
 ---
-<section>
-  <h2><i class="fas fa-terminal"></i> Coding</h2>
-  <div class="skill-section">
-    <div class="skill-column">
-      <div class="skill">
-        <i class="devicon-python-plain"></i>
-        <span>Python</span>
-        <div class="skill-bar" style="width: 80%;"></div>
-      </div>
-      <div class="skill">
-        <i class="devicon-java-plain"></i>
-        <span>Java</span>
-        <div class="skill-bar" style="width: 60%;"></div>
-      </div>
-      <div class="skill">
-        <i class="devicon-cplusplus-plain"></i>
-        <span>C++</span>
-        <div class="skill-bar" style="width: 40%;"></div>
-      </div>
-      <div class="skill">
-        <i class="devicon-haskell-plain"></i>
-        <span>Haskell</span>
-        <div class="skill-bar" style="width: 40%;"></div>
-      </div>
-      <div class="skill">
-        <i class="devicon-mathematica-plain"></i>
-        <span>Mathematica</span>
-        <div class="skill-bar" style="width: 40%;"></div>
-      </div>
-      <div class="skill">
-        <i class="devicon-javascript-plain"></i>
-        <span>JavaScript</span>
-        <div class="skill-bar" style="width: 40%;"></div>
-      </div>
-    </div>
-    <div class="skill-column">
-      <div class="skill">
-        <i class="devicon-ruby-plain"></i>
-        <span>Ruby</span>
-        <div class="skill-bar" style="width: 40%;"></div>
-      </div>
-      <div class="skill">
-        <i class="devicon-html5-plain"></i>
-        <span>HTML</span>
-        <div class="skill-bar" style="width: 70%;"></div>
-      </div>
-      <div class="skill">
-        <i class="devicon-latex-plain"></i>
-        <span>LaTeX</span>
-        <div class="skill-bar" style="width: 70%;"></div>
-      </div>
-      <div class="skill">
-        <i class="devicon-git-plain"></i>
-        <span>Git</span>
-        <div class="skill-bar" style="width: 60%;"></div>
-      </div>
-      <div class="skill">
-        <i class="devicon-terminal-plain"></i>
-        <span>Shell</span>
-        <div class="skill-bar" style="width: 60%;"></div>
-      </div>
-    </div>
-  </div>
-</section>
+<ul>
+  <li><span class="python"></span><em>Python</em></li>
+  <li><span class="java"></span><em>Java</em></li>
+  <li><span class="cplusplus"></span><em>C++</em></li>
+  <li><span class="haskell"></span><em>Haskell</em></li>
+  <li><span class="mathematica"></span><em>Mathematica</em></li>
+  <li><span class="javascript"></span><em>JavaScript</em></li>
+  <li><span class="ruby"></span><em>Ruby</em></li>
+  <li><span class="html5"></span><em>HTML</em></li>
+  <li><span class="latex"></span><em>LaTeX</em></li>
+  <li><span class="git"></span><em>Git</em></li>
+  <li><span class="shell"></span><em>Shell</em></li>
+</ul>
+
 
 
 ## Achievements
