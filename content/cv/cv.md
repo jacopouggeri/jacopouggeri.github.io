@@ -1,9 +1,10 @@
 ---
 title: "Curriculum Vitae"
-aliases:
-    - /cv.html
+date: 2023-08-29
 hidemeta: true
-description: "Curriculum Vitae"
+layout: cv/single
+projects: projects
+
 
 ---
 
