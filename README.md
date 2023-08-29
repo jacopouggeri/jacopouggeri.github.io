@@ -1,6 +1,6 @@
 # Minimalist Academic Website for Jacopo Uggeri
 
-This repository contains the source code to https://jacopouggeri.github.io: an academic website created with Hugo, PaperMod, and GitHub Pages. The original template is available at https://pascalmichaillat.org.
+This repository contains the source code for https://jacopouggeri.github.io: an academic website created with Hugo, PaperMod, and GitHub Pages. The original template is available at https://pascalmichaillat.org.
 
 ## Documentation
 

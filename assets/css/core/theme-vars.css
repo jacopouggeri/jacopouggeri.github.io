@@ -9,22 +9,13 @@
     --theme: var(--mywhite);
     --entry: var(--mywhite);
     --primary: var(--myblue);
-    --secondary: rgb(89, 95, 112) ;
-    --tertiary: rgb(174, 176, 172);
+    --secondary: var(--mygray);
+    --tertiary: var(--mydove);
     --gray: rgb(165, 165, 165);
     --content: var(--myblue);
     --hljs-bg: var(--myblue);
     --code-bg: rgb(218, 220, 215);
     --border: rgb(238, 238, 238);
-    --darkpurple: #8e7bd0;
-    --midpurple:#c0b5e5;
-    --lightpurple: #e5e1f4;
-    --aqua: rgb(115, 204, 183);
-    --darkaqua: #05696B;
-    --lightaqua: #AFDDDE;
-    --darkblue: rgb(20, 27, 49);
-    --myblue: rgb(18, 27, 51);
-    --mywhite: rgb(243, 245, 239);
     --hover: var(--darkaqua);
     --hover2: var(--aqua);
     --hover3: var(--lightaqua);
@@ -38,7 +29,17 @@
     --lineheight: 1.45;
     --lineclamp: 8;
     --marginleft: 26px;
+    
+    --aqua: rgb(115, 204, 183);
+    --darkaqua: #05696B;
+    --lightaqua: #AFDDDE;
+    --darkblue: rgb(20, 27, 49);
+    --myblue: rgb(18, 27, 51);
+    --mywhite: rgb(243, 245, 239);
+    --mygray: rgb(89, 95, 112);
+    --mydove: rgb(174, 176, 172);
 }
+
 
 .dark {
     --theme: rgb(29, 30, 32);
