@@ -1,5 +1,4 @@
 ---
-title: "Curriculum Vitae"
 date: 2023-08-29
 url: /cv/
 layout: cv/single
