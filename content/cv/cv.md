@@ -1,11 +1,10 @@
 ---
 title: "Curriculum Vitae"
-url: /cv/
 date: 2023-08-29
-hidemeta: true
+url: /cv/
 layout: cv/single
 projects: projects
-
+hidemeta: true
 
 ---
 
