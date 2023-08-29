@@ -1,5 +1,6 @@
 ---
 title: "Curriculum Vitae"
+url: /cv/
 date: 2023-08-29
 hidemeta: true
 layout: cv/single
