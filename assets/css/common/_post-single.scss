@@ -206,7 +206,7 @@
 .post-content code {
     margin: auto 4px;
     padding: 4px 6px;
-    font-size: 0.78em;
+    font-size: 0.78rem;
     line-height: var(--lineheight);
     background: var(--code-bg);
     border-radius: 2px;
@@ -231,7 +231,7 @@
 
 .post-content hr {
     margin: 30px 0;
-    height: 0.1em;
+    height: 0.1rem;
     background: var(--tertiary);
     border: 0;
 }
@@ -344,8 +344,8 @@
     &:hover {
         color: var(--theme);
         background: var(--hover);
-        outline: 0.3em solid var(--hover);
-        outline-offset: -0.1em;
+        outline: 0.3rem solid var(--hover);
+        outline-offset: -0.1rem;
     }
 }
 

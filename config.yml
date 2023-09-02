@@ -30,6 +30,7 @@ params:
     googleAnalyticsID:
     DateFormat: "January 2006"
     defaultTheme: light
+    useFontAwesome: true
     hideFooter: true
     disableThemeToggle: true
     ShowShareButtons: false
@@ -63,6 +64,7 @@ params:
     socialIcons:
         - name: CV
           url: /cv/
+          #faIcon: fas fa-file-pdf
         - name: Email
           url: mailto:jacopo.uggeri@gmail.com
         - name: Location
@@ -79,6 +81,7 @@ params:
           url: https://community.wolfram.com/web/jacopouggeri19
         - name: ResearchGate
           url: https://www.researchgate.net/profile/Jacopo_Uggeri
+          faIcon: fab fa-researchgate
 
     assets:
         disableHLJS: true

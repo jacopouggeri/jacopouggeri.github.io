@@ -107,6 +107,11 @@
 <link rel="alternate" hreflang="{{ .Lang }}" href="{{ .Permalink }}">
 {{ end -}}
 
+<!-- FontAwesome --> 
+{{- if site.Params.useFontAwesome }}
+<script src="https://kit.fontawesome.com/ce761a990f.js" crossorigin="anonymous"></script>
+{{- end }}
+
 <noscript>
     <style>
         #theme-toggle,

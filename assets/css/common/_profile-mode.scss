@@ -22,36 +22,49 @@
 }
 
 .social-icons {
-    padding: 12px 0;
+    padding: 1rem 0;
+    list-style: none;
+    display: flex;
+    align-items: center;
+
+    li:not(:last-of-type) {
+        margin-inline-end: 1.5rem;
+    }
 
     a {
-        color: var(--profile-button);
 
-        &:not(:last-of-type) {
-            margin-inline-end: 0.9em;
+        i {
+            font-size: 1.5em;
         }
 
-        svg {
-            border-radius: var(--radius);
-            overflow: visible;
-            box-sizing: content-box;
-            outline: 0.1em solid var(--profile-button);
-            padding: 0.4em;
+        .icon {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            border-radius: 50%;
+            text-align: center;
             height: 26px;
             width: 26px;
-            transition: 0.2s;
-            -webkit-transition: 0.2s;
+            transition: .2s;
+            -webkit-transition: .2s;
+        }
+
+        svg, i {
+            height: 26px;
+            width: 26px;
         }
 
         &:hover {
-            color: var(--theme);
+            color: var(--hover);
+        }
 
-            svg {
-                background-color: var(--hover);
-                outline: 0.4em solid var(--hover);
-                outline-offset: -0.1em;
+        &:hover {
+            .icon {
+                outline: 0.1rem solid var(--hover);
+                outline-offset: 0.4rem;
             }
         }
+
     }
 }
 
@@ -63,7 +76,7 @@
 .button {
     color: $accent;
     border-radius: var(--radius);
-    outline: 0.1em solid var(--profile-button);
+    outline: 0.1rem solid var(--profile-button);
     margin: 8px 16px 8px 0px;
     padding: 6px;
     transition: .2s;
@@ -71,9 +84,9 @@
 
     &:hover {
         background: var(--hover);
-        outline: 0.4em solid var(--hover);
+        outline: 0.4rem solid var(--hover);
         border-width: 0;
-        outline-offset: -0.1em;
+        outline-offset: -0.1rem;
 
         .button-inner {
             color: var(--theme);
