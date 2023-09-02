@@ -1,10 +1,13 @@
 $darkaqua: #05696B;
+$teal: #089DA0;
 $aqua: #7ae7c7;
 $myblue: #121b33;
 $mywhite: #f0f0f0;
 $mygray: #A3A3A3;
 $silver: #A5A5A5;
+$jet: #2A2A2A;
 $amaranth: #e3094a;
+$amar2: #E53A5A;
 
 $accent: $darkaqua;
 $accent2: $amaranth;
@@ -46,16 +49,17 @@ $text-color: $myblue;
 
 
 .dark {
-    --theme: rgb(29, 30, 32);
-    --entry: rgb(46, 46, 51);
-    --primary: rgb(218, 218, 219);
-    --secondary: rgb(155, 156, 157);
-    --tertiary: rgb(65, 66, 68);
-    --content: rgb(196, 196, 197);
-    --hljs-bg: rgb(46, 46, 51);
-    --code-bg: rgb(55, 56, 62);
-    --border: rgb(51, 51, 51);
-    --hover: #{$accent};
+    --theme: #000;
+    --entry: #000;
+    --primary: #{$mygray}; /* text color */
+    --secondary: #{$teal}; /* neutral color */
+    --tertiary: #{$mygray}; /* accent color */
+    --hljs-bg: #{$mywhite};
+    --code-bg: #{$jet};
+    --border: #{$mygray};
+    --hover: #{$teal};
+    --profile-button: #{$mygray};
+    --entry-text: #{$mywhite};
 }
 
 .list {
