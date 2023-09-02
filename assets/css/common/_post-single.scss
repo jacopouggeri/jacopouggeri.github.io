@@ -31,7 +31,7 @@
 }
 
 .post-content {
-    color: var(--content);
+    color: var(--primary);
     line-height: var(--lineheight);
     font-size: var(--textsize);
 }
@@ -61,14 +61,14 @@
     font-size: 15px;    
     font-weight: var(--semibold);
     text-transform: uppercase;
-    color: var(--gray);
+    color: var(--secondary);
 }
 
 .post-content h5 {
     font-size: 14px;
     font-weight: var(--semibold);
     text-transform: uppercase;
-    color: var(--gray);
+    color: var(--tertiary);
 }
 
 .post-content h6 {
@@ -76,8 +76,8 @@
     color: var(--secondary);
 }
 
-.post-content a,
-.post-meta a,
+.post-content a:not(.no-highlight),
+.post-meta a:not(.no-highlight),
 .toc a:hover {
     box-shadow: 0 2px 0 var(--hover);
     color: currentColor; 
@@ -110,14 +110,14 @@
 
 .post-content li {
     margin-top: 5px;
-}
 
-.post-content li::marker {
-    color: var(--gray);
-}
+    &::marker {
+        color: var(--secondary);
+    }
 
-.post-content li p {
-    margin-bottom: 0;
+    p {
+        margin-bottom: 0;
+    }
 }
 
 .post-content dl {
@@ -217,7 +217,7 @@
     display: block;
     margin: auto 0;
     padding: 10px;
-    color: var(--gray);
+    color: var(--secondary);
     border-radius: var(--radius);
     overflow-x: auto;
     word-break: break-all;
@@ -226,12 +226,12 @@
 .post-content blockquote {
     margin: 20px 0;
     padding: 0 14px;
-    border-inline-start: 4px solid var(--gray);
+    border-inline-start: 4px solid var(--secondary);
 }
 
 .post-content hr {
     margin: 30px 0;
-    height: 2px;
+    height: 0.1em;
     background: var(--tertiary);
     border: 0;
 }
@@ -275,7 +275,7 @@
 }
 
 .toc li::marker {
-    color: var(--gray);
+    color: var(--secondary);
 }
 
 .dark .toc {
@@ -326,7 +326,7 @@
 .share-buttons,
 .paginav {
     border-radius: var(--radius);
-    background: var(--code-bg);
+    background: var(--theme);
     border: 1px solid var(--border);
 }
 
@@ -334,18 +334,23 @@
     display: block;
     padding-inline-start: 10px;
     padding-inline-end: 10px;
-    color: var(--secondary);
     font-size: 16px;
     line-height: 32px;
-    background: var(--code-bg);
-}
+    color: var(--tertiary);
+    background: var(--theme);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
 
-.post-tags a:hover {
-    background: var(--hover3);
+    &:hover {
+        color: var(--theme);
+        background: var(--hover);
+        outline: 0.3em solid var(--hover);
+        outline-offset: -0.1em;
+    }
 }
 
 .paginav a:hover {
-    background: var(--hover3);
+    background: var(--hover);
 }
 
 .share-buttons {

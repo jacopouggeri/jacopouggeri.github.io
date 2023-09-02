@@ -39,13 +39,16 @@
     padding: var(--gap);
     background: var(--entry);
     border-radius: var(--radius);
-    transition: transform 0.1s;
-    border: 2px solid var(--border);
+    outline: 0.1em solid var(--border);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+
+    &:hover {
+        outline: 0.1em solid var(--hover);
+        box-shadow: 0 0 0.2em 0.1em var(--hover);
+    }
 }
 
-.post-entry:hover {
-     border: 2px solid var(--hover2);
-}
 
 .tag-entry .entry-cover {
     display: none;
@@ -58,7 +61,7 @@
 
 .entry-content {
     margin: 20px 10px;
-    color: var(--secondary);
+    color: var(--entry-text);
     font-size: var(--entrysize);
     line-height: var(--lineheight);
     overflow: hidden;
@@ -68,7 +71,7 @@
 }
 
 .entry-footer {
-    color: var(--content);
+    color: var(--primary);
     font-size: var(--entrysize);
 }
 

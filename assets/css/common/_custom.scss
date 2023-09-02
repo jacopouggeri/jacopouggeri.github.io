@@ -1,0 +1,29 @@
+::selection {
+    background: var(--hover);
+    color: var(--theme);
+}
+
+::-moz-selection {
+    background: var(--hover);
+    color: var(--theme);
+}
+
+.post-content a:not(.no-highlight) {
+    padding: 0.1em 0.2em 0em 0.2em;
+    transition: 0.5s;
+    -webkit-transition: 0.5s;
+
+    &:hover {
+        color: var(--theme);
+        background-color: var(--hover);
+    }
+}
+
+#menu span {
+    transition: 0.1s;
+    -webkit-transition: 0.1s;
+
+    &:hover {
+        border-bottom: 2px solid var(--hover);
+    }
+}

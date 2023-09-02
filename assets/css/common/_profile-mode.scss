@@ -1,0 +1,87 @@
+.buttons,
+.main .profile {
+    display: flex;
+    justify-content: left;
+}
+
+.main .profile {
+    align-items: center;
+    min-height: calc(100vh - var(--header-height) - var(--footer-height) - (var(--gap) * 2));
+    font-size: var(--homesize);
+    line-height: var(--lineheight);
+}
+
+.profile .profile_inner h1 {
+    padding: 12px 0;
+    font-size: 40px;
+}
+
+.profile img {
+    display: inline-table;
+    border-radius: 50%;
+}
+
+.social-icons {
+    padding: 12px 0;
+
+    a {
+        color: var(--profile-button);
+
+        &:not(:last-of-type) {
+            margin-inline-end: 0.9em;
+        }
+
+        svg {
+            border-radius: var(--radius);
+            overflow: visible;
+            box-sizing: content-box;
+            outline: 0.1em solid var(--profile-button);
+            padding: 0.4em;
+            height: 26px;
+            width: 26px;
+            transition: 0.2s;
+            -webkit-transition: 0.2s;
+        }
+
+        &:hover {
+            color: var(--theme);
+
+            svg {
+                background-color: var(--hover);
+                outline: 0.4em solid var(--hover);
+                outline-offset: -0.1em;
+            }
+        }
+    }
+}
+
+.buttons {
+    flex-wrap: wrap;
+    margin: 0 auto;
+}
+
+.button {
+    color: $accent;
+    border-radius: var(--radius);
+    outline: 0.1em solid var(--profile-button);
+    margin: 8px 16px 8px 0px;
+    padding: 6px;
+    transition: .2s;
+    -webkit-transition: .2s;
+
+    &:hover {
+        background: var(--hover);
+        outline: 0.4em solid var(--hover);
+        border-width: 0;
+        outline-offset: -0.1em;
+
+        .button-inner {
+            color: var(--theme);
+        }
+    }
+
+    .button-inner {
+        color: var(--profile-button);
+        padding: 0 8px;
+    }
+}

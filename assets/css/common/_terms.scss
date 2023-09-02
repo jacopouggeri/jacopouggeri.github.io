@@ -1,0 +1,24 @@
+.terms-tags li {
+    display: inline-block;
+    margin: 10px;
+    font-weight: 400;
+}
+
+.terms-tags a {
+    display: block;
+    padding: 3px 10px;
+    font-size: var(--homesize);
+    border-radius: var(--radius);
+    border: 0.1em solid var(--secondary);
+    color: var(--secondary);
+    background: var(--code-bg);
+    transition: 0.2s;
+    -webkit-transition: 0.2s;
+
+    &:hover {
+        color: var(--theme);
+        background: var(--hover);
+        outline: 0.3em solid var(--hover);
+        outline-offset: -0.1em;
+    }
+}
