@@ -22,13 +22,19 @@
 }
 
 .social-icons {
+    margin-bottom: -1rem;
     padding: 1rem 0;
     list-style: none;
     display: flex;
+    flex-wrap: wrap;
     align-items: center;
 
-    li:not(:last-of-type) {
-        margin-inline-end: 1.5rem;
+    li {
+        margin-bottom: 1rem;
+
+        &:not(:last-of-type) {
+            margin-inline-end: 1.5rem;
+        }
     }
 
     a {
