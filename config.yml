@@ -63,7 +63,7 @@ params:
               url: /projects/
     socialIcons:
         - name: CV
-          url: /cv/
+          url: /a4cv/
           #faIcon: fas fa-file-pdf
         - name: Email
           url: mailto:jacopo.uggeri@gmail.com
