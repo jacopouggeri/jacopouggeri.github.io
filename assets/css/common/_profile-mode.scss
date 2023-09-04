@@ -66,7 +66,7 @@
 
         &:hover {
             .icon {
-                outline: 0.1rem solid var(--hover);
+                outline: 0.15rem solid var(--hover);
                 outline-offset: 0.4rem;
             }
         }
@@ -82,7 +82,7 @@
 .button {
     color: $accent;
     border-radius: var(--radius);
-    outline: 0.1rem solid var(--profile-button);
+    outline: 0.15rem solid var(--profile-button);
     margin: 8px 16px 8px 0px;
     padding: 6px;
     transition: .2s;

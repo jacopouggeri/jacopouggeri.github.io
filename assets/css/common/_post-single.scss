@@ -16,7 +16,7 @@
 .post-meta,
 .breadcrumbs {
     color: var(--secondary);
-    font-size: 15px;
+    font-size: 18px;
 }
 
 .post-meta .i18n_list li {
@@ -327,7 +327,7 @@
 .paginav {
     border-radius: var(--radius);
     background: var(--theme);
-    border: 1px solid var(--border);
+    border: 0.15rem solid var(--border);
 }
 
 .post-tags a {
