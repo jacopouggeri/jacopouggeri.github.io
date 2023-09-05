@@ -1,6 +1,6 @@
 ---
 title: "Shining Light on Missing Red Giants: Red Giant Photoevaporation in the Galactic Centre" 
-date: 1/5/2023
+date: 01/05/2023
 url: /msci/
 tags: ["red giant","black hole","photoevaporation","galactic centre","astrophysics","stellar evolution"]
 author: "Jacopo Uggeri"
