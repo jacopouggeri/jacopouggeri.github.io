@@ -2,7 +2,7 @@
 title: "Black Hole Entanglement Entropy from Causal Graphs" 
 date: 12/07/2023
 url: /wss/
-tags: ["black hole","entanglement","quantum field theory","entropy","space time"]
+tags: ["black hole","entanglement","quantum field theory","entropy","space time","causal graph","wolfram physics project"]
 author: "Jacopo Uggeri"
 supervisor: "Jonathan Gorard"
 description: "The project aims to compute the entropy of a Schwarzschild Black Hole leveraging established formalism of Causal Set Theory for calculating entanglement entropy on causal graphs, with the ultimate goal of testing whether the area scaling law holds for discrete spacetime models." 
@@ -21,7 +21,7 @@ cover:
 
 #### Download
 
-+ [Wolfram Community Post (with notebook and code)](https://community.wolfram.com/groups/-/m/t/2959318?p_p_auth=Bi9ObgWO)
++ [Wolfram Community Post](https://community.wolfram.com/groups/-/m/t/2959318?p_p_auth=Bi9ObgWO)
 
 ---
 
