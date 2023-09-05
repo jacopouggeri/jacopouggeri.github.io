@@ -21,7 +21,7 @@ cover:
 
 #### Download
 
-+ [Wolfram Community Post (with notebook and code)](/docs/msci.pdf)
++ [Wolfram Community Post (with notebook and code)](https://community.wolfram.com/groups/-/m/t/2959318?p_p_auth=Bi9ObgWO)
 
 ---
 
