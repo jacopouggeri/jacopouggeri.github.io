@@ -25,5 +25,8 @@
     "> 1%",
     "maintained node versions",
     "not dead"
-  ]
+  ],
+  "dependencies": {
+    "lottie-web": "^5.12.2"
+  }
 }
