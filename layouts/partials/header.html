@@ -12,12 +12,12 @@
     </div>    
 
     <ul id="nav-menu" class="flex w-auto mt-0 space-x-2">
-      {{ with .Site.GetPage "/posts" }}
+      {{ with .Site.GetPage "/projects" }}
       <li>
         <a href="{{ .Permalink }}" class="hover:text-blue-800 dark:hover:text-blue-300">{{ .Title }}</a>
       </li>
       {{ end }}
-      {{ with .Site.GetPage "/projects" }}
+      {{ with .Site.GetPage "/posts" }}
       <li>
         <a href="{{ .Permalink }}" class="hover:text-blue-800 dark:hover:text-blue-300">{{ .Title }}</a>
       </li>
