@@ -1,0 +1,52 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Jacopo Uggeri</title>
+    <link>http://localhost:1313/</link>
+    <description>Recent content on Jacopo Uggeri</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>About Me</title>
+      <link>http://localhost:1313/about/</link>
+      <pubDate>Sat, 24 Apr 2021 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/about/</guid>
+      <description>Written in Go, Hugo is an open source static site generator available under the Apache Licence 2.0. Hugo supports TOML, YAML and JSON data file types, Markdown and HTML content files and uses shortcodes to add rich content. Other notable features are taxonomies, multilingual mode, image processing, custom output formats, HTML/CSS/JS minification and support for Sass SCSS workflows.
+Hugo makes use of a variety of open source projects including:
+https://github.com/yuin/goldmark https://github.</description>
+    </item>
+    
+    <item>
+      <title>Black Hole Entanglement Entropy from Causal Graphs</title>
+      <link>http://localhost:1313/wss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/wss/</guid>
+      <description>Entanglement entropy on causal graphs is suspected to be related to entropy calculations on Wolfram Model branchial graphs, the latter being more computationally expensive. The project aims to compute the entropy of a Schwarzschild Black Hole leveraging established formalism of Causal Set Theory for calculating entanglement entropy on causal graphs, with the ultimate goal of testing whether the area scaling law holds for discrete spacetime models. Black Hole causal graphs were obtained by discretizing spacelike hypersurfaces and computing the causal relations among events in consecutive hypersurfaces.</description>
+    </item>
+    
+    <item>
+      <title>Location</title>
+      <link>http://localhost:1313/location/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/location/</guid>
+      <description>Location Blackett Laboratory
+Imperial College London
+South Kensington Campus
+London SW7 2AZ
+United Kingdom</description>
+    </item>
+    
+    <item>
+      <title>Shining Light on Missing Red Giants: Red Giant Photoevaporation in the Galactic Centre</title>
+      <link>http://localhost:1313/msci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/msci/</guid>
+      <description>The project&amp;rsquo;s aim was to investigate whether the lack of red giant stars at the center of the Galaxy could be explained by evaporation caused by radiation coming from the accretion disk of the central supermassive black hole. Our results provided promising evidence that photoevaporation can indeed significantly alter a red giant&amp;rsquo;s evolutionary course.</description>
+    </item>
+    
+  </channel>
+</rss>

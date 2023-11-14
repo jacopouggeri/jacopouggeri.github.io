@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8" standalone="yes"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>Projects on Jacopo Uggeri</title>
+    <link>http://localhost:1313/projects/</link>
+    <description>Recent content in Projects on Jacopo Uggeri</description>
+    <generator>Hugo -- gohugo.io</generator>
+    <language>en-us</language><atom:link href="http://localhost:1313/projects/index.xml" rel="self" type="application/rss+xml" />
+    <item>
+      <title>Black Hole Entanglement Entropy from Causal Graphs</title>
+      <link>http://localhost:1313/wss/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/wss/</guid>
+      <description>Entanglement entropy on causal graphs is suspected to be related to entropy calculations on Wolfram Model branchial graphs, the latter being more computationally expensive. The project aims to compute the entropy of a Schwarzschild Black Hole leveraging established formalism of Causal Set Theory for calculating entanglement entropy on causal graphs, with the ultimate goal of testing whether the area scaling law holds for discrete spacetime models. Black Hole causal graphs were obtained by discretizing spacelike hypersurfaces and computing the causal relations among events in consecutive hypersurfaces.</description>
+    </item>
+    
+    <item>
+      <title>Shining Light on Missing Red Giants: Red Giant Photoevaporation in the Galactic Centre</title>
+      <link>http://localhost:1313/msci/</link>
+      <pubDate>Mon, 01 Jan 0001 00:00:00 +0000</pubDate>
+      
+      <guid>http://localhost:1313/msci/</guid>
+      <description>The project&amp;rsquo;s aim was to investigate whether the lack of red giant stars at the center of the Galaxy could be explained by evaporation caused by radiation coming from the accretion disk of the central supermassive black hole. Our results provided promising evidence that photoevaporation can indeed significantly alter a red giant&amp;rsquo;s evolutionary course.</description>
+    </item>
+    
+  </channel>
+</rss>
