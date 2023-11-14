@@ -1,6 +1,25 @@
-{{ define "main" }} {{ range .Pages }}
-<article class="sm:mx-12 mb-16 prose lg:prose-lg">
-  <h1><a href="{{ .Permalink }}">{{ .Title }}</a></h1>
-  {{ .Content }}
+{{ define "main" }}
+<article class="max-w-5xl mx-auto px-4">
+  <h1 class="text-4xl font-bold mb-4">{{ .Title }}</h1>
+  <div class="text-gray-600">{{ .Content }}</div>
+
+  <div class="card-list">
+    {{ range .Data.Pages -}}
+    <a class="block my-6" href="{{ .RelPermalink }}">
+      {{ $cover := .Params.cover }}
+      {{ $title := .Params.title }}
+      {{ with $cover }}
+      <img class="rounded max-w-full mb-4" src="{{ .image }}" alt="{{ .alt }}" />
+      {{ end }}
+      <h2 class="text-xl font-semibold mb-1">{{ $title }}</h2>
+      <p class="font-light mb-2 text-gray-500 text-sm">
+        {{ .Params.date.Format "January 2, 2006" }}
+      </p>
+      <div class="font-light text-gray-800 dark:text-gray-200">
+        {{ .Summary }}
+      </div>
+    </a>
+    {{ end -}}
+  </div>
 </article>
-{{ end }} {{ end }}
+{{ end }}

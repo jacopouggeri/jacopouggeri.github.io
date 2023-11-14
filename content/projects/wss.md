@@ -1,7 +1,7 @@
 ---
 title: "Black Hole Entanglement Entropy from Causal Graphs" 
 date: 12/07/2023
-url: /wss/
+url: /wss23/
 tags: ["black hole","entanglement","quantum field theory","entropy","space time","causal graph","wolfram physics project"]
 author: "Jacopo Uggeri"
 supervisor: "Jonathan Gorard"

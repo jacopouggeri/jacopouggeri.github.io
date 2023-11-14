@@ -1,0 +1,33 @@
+baseURL: 'https://jacopouggeri.github.io/'
+languageCode: 'en-us'
+title: 'Jacopo Uggeri'
+theme: 'showfolio'
+
+params:
+  name: "Jacopo Uggeri"
+  description: "Enthusiastic Theoretical Physics student."
+  author: "Jacopo Uggeri"
+  authorEmail: "jacopo.uggeri@gmail.com"
+  authorImage: "profile.png"
+  autoDarkMode: true
+  copyright: "Copyright © 2023 - Jacopo Uggeri · All rights reserved"
+  favicon: "favicon.ico"
+  homepage:
+    title: "Hey 👋 I'm Jacopo Uggeri"
+    tagline: "Theoretical Physics Student"
+    description: "My current research interest is in gravity beyond General Relativity and black hole physics. Curious about learning languages, game design and the graphical and visual aspect of science communication."
+    contact: "https://twitter.com/"
+    social:
+      cv: /a4cv/
+      mail: mailto:jacopo.uggeri@gmail.com
+      orcid: https://orcid.org/0009-0001-1469-5566
+      youtube: https://www.youtube.com/@jacopouggeri
+      github: https://github.com/jacopouggeri?tab=repositories
+      linkedin: https://linkedin.com/in/jacopouggeri000
+
+build:
+  writeStats: true
+
+markup:
+  highlight:
+    style: "dracula"
