@@ -1,6 +1,35 @@
 <section class="my-4">
   <ul class="flex justify-center gap-4">
-    {{ with .Site.Params.homepage.social.twitter }}
+    {{ $social := .Site.Params.homepage.social }}
+    {{ with $social.youtube }}
+    <li>
+      <a
+        href="{{.}}"
+        target="_blank"
+        rel="noopener"
+        aria-label="YouTube"
+        class="p-2 inline-block rounded-full border border-gray-300 text-gray-300 hover:text-gray-800 hover:border-gray-800 cursor-pointer transition-colors dark:border-gray-600 dark:text-gray-600 dark:hover:border-gray-300 dark:hover:text-gray-300"
+      >
+      <svg 
+        xmlns="http://www.w3.org/2000/svg"
+        width="20"
+        height="20"
+        viewBox="0 0 24 24"
+        stroke-width="1.5"
+        stroke="currentColor"
+        fill="none"
+        stroke-linecap="round"
+        stroke-linejoin="round"
+      >
+      <path stroke="none" d="M0 0h24v24H0z" fill="none" />
+      <path
+          d="M22.54 6.42a2.78 2.78 0 0 0-1.94-2C18.88 4 12 4 12 4s-6.88 0-8.6.46a2.78 2.78 0 0 0-1.94 2A29 29 0 0 0 1 11.75a29 29 0 0 0 .46 5.33A2.78 2.78 0 0 0 3.4 19c1.72.46 8.6.46 8.6.46s6.88 0 8.6-.46a2.78 2.78 0 0 0 1.94-2 29 29 0 0 0 .46-5.25 29 29 0 0 0-.46-5.33z">
+      </path>
+      <polygon points="9.75 15.02 15.5 11.75 9.75 8.48 9.75 15.02"></polygon></svg>
+      </a>
+    </li>
+    {{ end }}
+    {{ with $social.twitter }}
     <li>
       <a
         href="{{.}}"
@@ -28,7 +57,7 @@
       </a>
     </li>
     {{ end }}
-    {{ with .Site.Params.homepage.social.linkedin }}
+    {{ with $social.linkedin }}
     <li>
       <a
         href="{{.}}"
@@ -58,7 +87,7 @@
       </a>
     </li>
     {{ end }}
-    {{ with .Site.Params.homepage.social.github }}
+    {{ with $social.github }}
     <li>
       <a
         href="{{.}}"
@@ -86,7 +115,7 @@
       </a>
     </li>
     {{ end }}
-    {{ with .Site.Params.homepage.social.medium }}
+    {{ with $social.medium }}
     <li>
       <a
         href="{{.}}"
@@ -117,7 +146,7 @@
       </a>
     </li>
     {{ end }}
-    {{ with .Site.Params.homepage.social.reddit }}
+    {{ with $social.reddit }}
     <li>
       <a
         href="{{.}}"
@@ -150,7 +179,7 @@
       </a>
     </li>
     {{ end }}
-    {{ with .Site.Params.homepage.social.dribbble }}
+    {{ with $social.dribbble }}
     <li>
       <a
         href="{{.}}"
