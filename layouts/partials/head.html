@@ -15,6 +15,9 @@
   {{ end -}}
   {{ hugo.Generator }}
 
+  {{/* Custom Style */}}
+  <link rel="stylesheet" href='{{ "/assets/css/custom.css" | relURL }}'>
+
   {{- $styles := resources.Get "css/styles.css" | postCSS (dict "config" "./assets/css/postcss.config.js") -}}
   {{- if .Site.IsServer }}
   <link rel="stylesheet" href="{{ $styles.RelPermalink }}" />

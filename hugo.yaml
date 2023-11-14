@@ -8,6 +8,7 @@ params:
   description: "Enthusiastic Theoretical Physics student."
   author: "Jacopo Uggeri"
   authorEmail: "jacopo.uggeri@gmail.com"
+  authorResume: "/a4cv/"
   authorImage: "profile.png"
   autoDarkMode: true
   copyright: "Copyright © 2023 - Jacopo Uggeri · All rights reserved"
@@ -16,10 +17,8 @@ params:
     title: "Hey 👋 I'm Jacopo Uggeri"
     tagline: "Theoretical Physics Student"
     description: "My current research interest is in gravity beyond General Relativity and black hole physics. Curious about learning languages, game design and the graphical and visual aspect of science communication."
-    contact: "https://twitter.com/"
+    contact: mailto:jacopo.uggeri@gmail.com"
     social:
-      cv: /a4cv/
-      mail: mailto:jacopo.uggeri@gmail.com
       orcid: https://orcid.org/0009-0001-1469-5566
       youtube: https://www.youtube.com/@jacopouggeri
       github: https://github.com/jacopouggeri?tab=repositories
