@@ -9,9 +9,9 @@
   <h1 class="text-2xl font-bold text-center mb-4">
     {{ .Site.Params.homepage.title }}
   </h1>
-  <div class="absolute inset-0 flex items-center justify-center">
+  <div style="z-index:-1" class="absolute inset-0 flex items-center justify-center">
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
-    <div style="z-index:-1" class="grid grid-cols-2 gap-4 w-full h-full opacity-50 overflow-hidden">
+    <div class="grid grid-cols-2 gap-4 w-full h-full opacity-50 overflow-hidden">
       <!-- Element for top left -->
       <dotlottie-player
         class="col-start-1 row-start-1 transform -translate-x-1/4 translate-y-1/4"
@@ -48,7 +48,7 @@
     rel="noopener noreferrer"
     target="_blank"
     class="px-6 py-4 rounded-full font-semibold text-lg bg-black text-white hover:bg-gray-800 transition-colors dark:bg-white dark:text-black dark:hover:bg-gray-200"
-    >Talk to me</a
+    >Contact me</a
   >
   {{ end }}
 </section>
