@@ -11,10 +11,10 @@
   </h1>
   <div class="absolute inset-0 flex items-center justify-center">
     <script src="https://unpkg.com/@dotlottie/player-component@latest/dist/dotlottie-player.mjs" type="module"></script> 
-    <div class="grid grid-cols-2 gap-4 w-full opacity-50 -z-10 overflow-hidden">
+    <div style="z-index:-1" class="grid grid-cols-2 gap-4 w-full h-full opacity-50 overflow-hidden">
       <!-- Element for top left -->
       <dotlottie-player
-        class="col-start-1 row-start-1 transform -translate-x-1/4 translate-y-1/2"
+        class="col-start-1 row-start-1 transform -translate-x-1/4 translate-y-1/4"
         src="anim/string.lottie"
         background="transparent"
         speed="0.15"
@@ -25,7 +25,7 @@
 
       <!-- Element for top right -->
       <dotlottie-player
-        class="col-start-2 row-start-2 transform translate-x-1/4"
+        class="col-start-2 row-start-2 transform translate-x-1/4 -translate-y-1/4"
         src="anim/string2.lottie"
         background="transparent"
         style="width: 700px;"
