@@ -1,0 +1,4 @@
+baseURL = 'https://jacopouggeri.github.io/'
+languageCode = 'en-us'
+title = 'Jacopo Uggeri'
+theme = 'showfolio'
