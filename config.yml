@@ -1,7 +1,7 @@
 baseURL: "https://jacopouggeri.github.io" 
 title: Jacopo Uggeri
 paginate: 20
-theme: PaperMod
+theme: showfolio
 
 enableInlineShortcodes: true
 enableRobotsTXT: true
