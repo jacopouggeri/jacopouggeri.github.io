@@ -15,7 +15,7 @@ cover:
 ---
 
 ![](/img/bhgraph.png)
-Image: Three perspectives of the causal graph of a black hole spacetime, horizon is highlighted in grey
+Image: Perspectives of the causal graph for a black hole spacetime, events inside the horizon highlighted in teal.
 
 ---
 
