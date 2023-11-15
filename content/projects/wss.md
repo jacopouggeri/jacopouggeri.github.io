@@ -19,17 +19,15 @@ cover:
 
 ---
 
-#### Download
-
-+ [Wolfram Community Post](https://community.wolfram.com/groups/-/m/t/2959318?p_p_auth=Bi9ObgWO)
-
----
-
 #### Abstract
 
 Entanglement entropy on causal graphs is suspected to be related to entropy calculations on Wolfram Model branchial graphs, the latter being more computationally expensive. The project aims to compute the entropy of a Schwarzschild Black Hole leveraging established formalism of Causal Set Theory for calculating entanglement entropy on causal graphs, with the ultimate goal of testing whether the area scaling law holds for discrete spacetime models. Black Hole causal graphs were obtained by discretizing spacelike hypersurfaces and computing the causal relations among events in consecutive hypersurfaces.
 
 ---
+
+#### Download
+
++ [Wolfram Community Post](https://community.wolfram.com/groups/-/m/t/2959318?p_p_auth=Bi9ObgWO)
 
 #### Related material
 
