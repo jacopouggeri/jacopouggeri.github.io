@@ -14,17 +14,17 @@
     <ul id="nav-menu" class="flex w-auto mt-0 space-x-2">
       {{ with .Site.GetPage "/projects" }}
       <li>
-        <a href="{{ .Permalink }}" class="hover:text-blue-800 dark:hover:text-blue-300">{{ .Title }}</a>
+        <a href="{{ .Permalink }}" class="hover:text-blue-800">{{ .Title }}</a>
       </li>
       {{ end }}
       {{ with .Site.GetPage "/posts" }}
       <li>
-        <a href="{{ .Permalink }}" class="hover:text-blue-800 dark:hover:text-blue-300">{{ .Title }}</a>
+        <a href="{{ .Permalink }}" class="hover:text-blue-800">{{ .Title }}</a>
       </li>
       {{ end }}
       {{ with .Site.Params.authorResume }}
       <li>
-        <a href="{{ . | relURL }}" class="hover:text-blue-800 dark:hover:text-blue-300">Resume</a>
+        <a href="{{ . | relURL }}" class="hover:text-blue-800">Resume</a>
       </li>
       {{ end }}
     </ul>

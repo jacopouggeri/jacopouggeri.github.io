@@ -8,6 +8,7 @@
       "dotlottie-player",
       "h1",
       "h2",
+      "h3",
       "h4",
       "h5",
       "head",
@@ -47,8 +48,8 @@
       "dark:border-gray-600",
       "dark:hover:bg-gray-200",
       "dark:hover:border-gray-300",
-      "dark:hover:text-blue-300",
       "dark:hover:text-gray-300",
+      "dark:hover:text-teal-500",
       "dark:prose-dark",
       "dark:text-black",
       "dark:text-gray-100",
@@ -150,7 +151,7 @@
       "figure-21-model-and-theory",
       "nav-menu",
       "related-material",
-      "three-perspectives-of-the-causal-graph-of-a-black-hole-spacetime"
+      "three-perspectives-of-the-causal-graph-of-a-black-hole-spacetime-horizon-is-highlighted-in-grey"
     ]
   }
 }
