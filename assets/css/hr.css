@@ -8,5 +8,5 @@ hr {
 }
 
 .dark a:hover {
-    @apply text-teal-500;
+    @apply text-teal-400;
 }
