@@ -20,7 +20,7 @@ editPost:
 
 ---
 
-#### Download:
+### Download:
 
 - [Paper](/paper.pdf)
 - [Online appendix](/appendix.pdf)
@@ -28,19 +28,19 @@ editPost:
 
 ---
 
-#### Abstract:
+### Abstract:
 
 Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.
 
 ---
 
-#### Figure X:  Figure title
+### Figure X:  Figure title
 
 ![](/paper.png)
 
 ---
 
-#### Citation:
+### Citation:
 
 Author 1, Author 2. Year. "Title." *Journal* Volume (Issue): First page--Last page. https://doi.org/paper.
 
