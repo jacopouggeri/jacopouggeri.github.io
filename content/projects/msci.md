@@ -27,7 +27,7 @@ The observed distribution of red giant stars in the galactic centre deviates fro
 
 ### Additional Information
 Exciting news! I will be working with my supervisor, Dr. James Owen, to extend this project. Currently, the stellar evolution code is very approximate and can only offer a qualitative predictions on the behaviour of the star (ie will it evaporate?). Furthemore, these predictions match pretty closely with the rough estimates of evaporation timescale obtained by the instantaneous mass loss and the star's mass. However, we would like to extend this project to include a more accurate stellar evolution code, which will allow us to make quantitative predictions on the star's evolution.
-     
+
 To do so, we I am modifying [MESA](https://docs.mesastar.org/), a research-grade stellar evolution code, by altering the mass loss physics to include the previously calculated mass loss rates. This will allow us to get much more precise answers to questions such as: how much mass will the star lose? How will this affect its evolution? How will this affect its distribution in the galactic centre?
 
 ---
