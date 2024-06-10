@@ -1,6 +1,6 @@
 # Minimalist Academic Website for Jacopo Uggeri
 
-This repository contains the source code for https://jacopouggeri.github.io: a portfolio and blog created with Hugo, ShowFolio, and GitHub Pages.
+This repository contains the source code for https://jayugg.github.io: a portfolio and blog created with Hugo, ShowFolio, and GitHub Pages.
 
 ## Documentation
 
