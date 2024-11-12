@@ -15,9 +15,9 @@ cover:
 ---
 
 ![](/img/msc_img.png)
-Adapted from figure 2.2: The weight and root lattice of $\mathfrak{su}(3)$, generated respectively by the
-fundamental weights $\mu_{1,2}$ and the simple roots $\alpha_{1,2}$.
-For an theory with a global $\mathrm{SU}(3)$ structure electric charges lie in the weight lattice, and magnetic charges lie in the co-root lattice (the inverse lattice of the root lattice, which for $\mathfrak{su}(3)$ coincides with the root lattice) while for a theory with global group $\mathrm{SU}(3) / \mathrm{Z}_3$ the opposite is true and magnetic charges lie in the root lattice and electric charges lie in the co-root lattice.
+Adapted from figure 2.2: The weight and root lattice of \(\mathfrak{su}(3)\), generated respectively by the
+fundamental weights \(\mu_{1,2}\) and the simple roots \(\alpha_{1,2}\).
+For an theory with a global \(\mathrm{SU}(3)\) structure electric charges lie in the weight lattice, and magnetic charges lie in the co-root lattice (the inverse lattice of the root lattice, which for \(\mathfrak{su}(3)\) coincides with the root lattice) while for a theory with global group \(\mathrm{SU}(3) / \mathrm{Z}_3\) the opposite is true and magnetic charges lie in the root lattice and electric charges lie in the co-root lattice.
 
 
 ---
@@ -34,4 +34,6 @@ We discuss the representation theory of non-abelian charges in physics, particul
 
 ### Related material
 
++ [Dirac's 1931 paper on electric charge quantisation](https://royalsocietypublishing.org/doi/10.1098/rspa.1931.0130)
++ [Olive, Nuyts and Goddard's 1977 paper](https://www.sciencedirect.com/science/article/abs/pii/0550321377902218) 
 + [David Tong's notes on Gauge Theory](http://www.damtp.cam.ac.uk/user/tong/gaugetheory/gt.pdf)
