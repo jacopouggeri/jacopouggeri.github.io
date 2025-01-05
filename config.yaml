@@ -19,10 +19,11 @@ params:
     description: "My current research interest is in gravity beyond General Relativity and black hole physics. I'm curious about learning languages, coding and the graphical and visual aspect of science communication."
     contact: mailto:jacopo.uggeri@gmail.com"
     social:
-      orcid: https://orcid.org/0009-0001-1469-5566
-      youtube: https://www.youtube.com/@jacopouggeri
-      github: https://github.com/jacopouggeri?tab=repositories
+      linktree: https://linktr.ee/jacopouggeri
       linkedin: https://linkedin.com/in/jacopouggeri000
+      github: https://github.com/jacopouggeri?tab=repositories
+      youtube: https://www.youtube.com/@jacopouggeri
+      orcid: https://orcid.org/0009-0001-1469-5566
 
 build:
   writeStats: true
